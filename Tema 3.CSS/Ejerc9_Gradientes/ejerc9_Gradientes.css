@@ -1,0 +1,70 @@
+div {
+    width: 30%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    background: linear-gradient(to bottom, #4B0082, #FF69B4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div:nth-of-type(1) {
+    background: linear-gradient(to right, black, blue, yellow, green, red);
+}
+
+div:nth-of-type(2) {
+    background: repeating-linear-gradient(to bottom, blue, blue 20px, yellow 20px, yellow 40px, red 40px, red 60px);
+}
+
+div:nth-of-type(3) {
+    background: radial-gradient(ellipse, yellow, red, black);
+}
+
+div:nth-of-type(4) {
+    background: radial-gradient(ellipse, yellow 50%, red 60%, black 100%);
+}
+
+div:nth-of-type(5) {
+    background: radial-gradient(circle, yellow 50%, red 60%, black 100%)
+}
+
+div:nth-of-type(6) {
+    background: radial-gradient(circle at left, yellow 50%, red 60%, black 100%);
+}
+
+div:nth-of-type(7) {
+    background: radial-gradient(circle, blue, red, orange, yellow);
+}
+
+div:nth-of-type(8) {
+    background: radial-gradient(farthest-side, blue 10%, red 40%, orange 60%, yellow 100%);
+}
+
+div:nth-of-type(9) {
+    background: radial-gradient(circle, blue 20%, red 60%, orange 80%, yellow 100%);
+}
+
+div:nth-of-type(10) {
+    width: 600px;
+    height: 400px;
+    background: repeating-radial-gradient(circle,#FF4444 0%, #FF4444 10%, #FF0000 10%, #FF0000 20%,  #8B0000 20%,  #8B0000 30%);
+}
+
+div:nth-of-type(11) {
+    width: 600px;
+    height: 400px;
+    background: conic-gradient(at 50% 0%, blue, black);
+}
+
+div:nth-of-type(12) {
+    width: 600px;
+    height: 400px;
+    background: repeating-conic-gradient(blue 10%, yellow 20%, red 30%);
+}
